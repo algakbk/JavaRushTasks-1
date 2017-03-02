@@ -25,7 +25,7 @@ public class Solution {
                 if(split[i].contains("world"))
                     count++;
             }
-            //Вывод к-ва строк
+            //Вывод к-ва строк на экран
             System.out.println(count);
             bufferedReader.close();
             fileReader.close();
