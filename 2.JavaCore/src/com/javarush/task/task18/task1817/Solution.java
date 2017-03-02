@@ -18,6 +18,7 @@ public class Solution {
             x = fileReader.read();
             if(x == 32)
                 countSpace++;
+            //инкримент значения в цикле
             count++;
         }
        double result = (double)countSpace/count * 100;
